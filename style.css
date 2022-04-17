@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #eee;
+}
+
+header {
+  /* position: fixed;
+  top: 0; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+header #header-img {
+  width: 22rem;
+}
+
+nav ul {
+  margin-top: 0.5rem;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: black;
+  margin: 0 3rem;
+}
+
+nav ul a:visited {
+  color: black;
+}
+
+#hero {
+  margin-top: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#hero #form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#form input {
+  margin: 1.2rem 0 1rem 0;
+  width: 16rem;
+  height: 1.75rem;
+  padding-left: 0.4rem;
+}
+
+#form button {
+  border: none;
+  background-color: #f1c40f;
+  font-weight: 800;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0.2rem 1rem;
+  margin-bottom: 6rem;
+  border-radius: 3px;
+}
+
+#form button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 145, 0);
+  transition: background-color 0.3s;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 10rem;
+  align-items: center;
+}
+
+.container .grid {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3rem;
+}
+
+.container .grid .icon {
+  color: darkorange;
+  font-size: 2.9rem;
+  width: 8rem;
+  text-align: center;
+}
+
+#how-it-works {
+  margin-bottom: 4rem;
+}
+
+#pricing {
+  display: flex;
+  flex-direction: row;
+}
+
+#pricing .product {
+  margin: 0 0.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+#pricing .product .level {
+  background-color: #ddd;
+  font-weight: 600;
+  padding: 0.9rem 5rem;
+}
+
+#pricing .product h2 {
+  margin: 1rem 0;
+}
+
+#pricing .product ul {
+  list-style-type: none;
+}
+
+#pricing .product ul li {
+  margin-bottom: 0.7rem;
+}
+
+#pricing .product button {
+  margin: 1rem 0;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  background-color: #f1c40f;
+  font-size: 1rem;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+#pricing .product button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 145, 0);
+  transition: background-color 0.3s;
+}
+
+footer {
+  margin-top: 2.5rem;
+  background-color: #ddd;
+  padding: 1.2rem;
+  width: 62rem;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: flex-end;
+}
+
+footer ul li {
+  margin-bottom: 0.4rem;
+  margin-left: 1.3rem;
+}
+
+footer span {
+  color: #444;
+  display: flex;
+  justify-content: flex-end;
+}
